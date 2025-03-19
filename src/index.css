@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body{
+    
+    background: 
+                radial-gradient(at 17% 63%, #eef5ff 0px, transparent 50%), 
+                radial-gradient(at 97% 64%, #b4d4ff 0px, transparent 50%), 
+                radial-gradient(at 28% 33%, #86b6f6 0px, transparent 50%), 
+                radial-gradient(at 77% 17%, #fad5ff 0px, transparent 50%), 
+                radial-gradient(at 87% 87%, #176b87 0px, transparent 50%), 
+                #eef5ff;
+                /* overflow: hidden; */
+    /* background-position: ; */
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
