@@ -15,13 +15,13 @@ const Header = () => {
   }, []);
   return (
     <div className={`flex justify-between items-center sm:px-20 py-5 px-10  text-black sticky top-0 transition-all duration-75 ease-in-out ${scrolled >0 ? "backdrop-blur-sm": ""} `}>
-        <div>Hersafeai</div>
+        <div className='text-transparent'>Hersafeai</div>
         <div>
-          <ul className='flex gap-16 uppercase font-semibold '>
-            <li className=' hover:text-[#6EDACB] transition-colors duration-75 ease-in-out cursor-pointer '>Home</li>
-            <li className=' hover:text-[#6EDACB] transition-colors duration-75 ease-in-out cursor-pointer '>Features</li>
-            <li className=' hover:text-[#6EDACB] transition-colors duration-75 ease-in-out cursor-pointer '>About Us</li>
-            <li className=' hover:text-[#6EDACB] transition-colors duration-75 ease-in-out cursor-pointer '>Community</li>
+          <ul className='flex gap-16 uppercase font-semibold text-lg'>
+            <li className=' hover:text-[#6EDACB] transition-colors duration-75 ease-in-out cursor-pointer '><a href="#"></a>Home</li>
+            <li className=' hover:text-[#6EDACB] transition-colors duration-75 ease-in-out cursor-pointer '><a href="#features">Features</a></li>
+            <li className=' hover:text-[#6EDACB] transition-colors duration-75 ease-in-out cursor-pointer '><a href="#">About Us</a></li>
+            <li className=' hover:text-[#6EDACB] transition-colors duration-75 ease-in-out cursor-pointer '><a href="#">Community</a></li>
           </ul>
         </div>
         <span className='text-transparent'>:</span>
