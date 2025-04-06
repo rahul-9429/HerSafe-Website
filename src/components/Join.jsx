@@ -3,7 +3,7 @@ const Join = () => {
   return (
     <div className='flex flex-col items-center justify-between'>
        
-            <h1 className='text-5xl  tracking-widest font-semibold'>Join the Movement</h1>
+            <h1 className='text-5xl  tracking-widest font-semibold mt-16'>Join the Movement</h1>
             <p className='text-2xl pt-4 '>Your safety matters. Join thousands of users who trust HerSafe for a smarter, safer tomorrow.</p>
             <p className='text-2xl pt-1'>Have Questions? Contact us at <a className='underline transition-colors duration-100 ease-in-out hover:text-[#45b9aa]' href="mailto:rahulkasimikota@gmail.com">help@hersafe</a></p>
         
