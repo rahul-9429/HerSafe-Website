@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <Hero/>
-    <AppDis/>
+    {/* <AppDis/> */}
     <Features/>
     <Faq/>
     <Join/>
