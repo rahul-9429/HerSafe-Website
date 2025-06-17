@@ -5,12 +5,13 @@ import AppStor from '../assets/dappstore.svg';
 const Footer = () => {
   return (
     <div className="text-white py-16">
+      <hr className='text-black/40 my-4 mx-5'/>
       <div className="container mx-auto flex flex-col sm:flex-row gap-5 justify-between px-5">
         
         {/* Hersafeai, Socials */}
         <div className="flex flex-col items-center gap-3 sm:w-1/4">
-        <h1 className="text-3xl font-bold text-center text-black">
-                 HerSafeai </h1>
+        <h1 className="text-3xl font-semibold uppercase tracking-widest text-center text-black">
+                 HerSafe </h1>
             <span className=' flex gap-6 '>
                 {/* <a href="" className=''><Instagram className=' text-white/70 hover:text-white transition-all duration-200 '/>
                 </a>                 */}

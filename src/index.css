@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 body{
+    scroll-behavior: smooth;
     user-select:none ;
     /* background: 
                 radial-gradient(at 17% 63%, #eef5ff 0px, transparent 50%), 

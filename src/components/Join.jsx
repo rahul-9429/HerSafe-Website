@@ -1,7 +1,7 @@
 import React from 'react'
 const Join = () => {
   return (
-    <div className='flex flex-col items-center justify-between'>
+    <div className='flex flex-col items-center justify-between pt-40 pb-32'>
        
             <h1 className='text-5xl  tracking-widest font-semibold mt-16'>Join the Movement</h1>
             <p className='text-2xl pt-4 '>Your safety matters. Join thousands of users who trust HerSafe for a smarter, safer tomorrow.</p>

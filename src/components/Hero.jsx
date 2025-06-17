@@ -2,8 +2,8 @@ import React from 'react'
 import Header from './header'
 import circle from '../assets/hero_circle.svg';
 // import circleHero from  '../assets/Semicircle.svg';
-import {FeaturesSectionDemo} from './BentoGrid';
-
+import hersafe2 from '../assets/hersafe2.svg';
+import her from '../assets/her.png';
 const Hero = () => {
   return (
     <>
@@ -27,8 +27,9 @@ const Hero = () => {
       </div>
     </div>
     <div className='flex w-[50%] '>
-      <span className='w-[90%]'>
-
+      <span className='w-[90%] flex justify-center items-center'>
+{/* <img src={hersafe2} alt="" className='sm:-ml-56'/> */}
+<img src={her} alt="" className='h-[100vh] -mt-16'/>
       </span>
       <span className=" w-[10%] -mt-18  !h-screen bg-[linear-gradient(to_bottom,_transparent_0%,_#9AE0D3CC_2%,_#35A7A0CC_50%,_#89C8DDCC_98%,_transparent_100%)] uppercase writing-vertical-lr font-xl font-semibold text-white tracking-widest justify-evenly items-center flex"
       style={{ writingMode: 'vertical-lr' }}
