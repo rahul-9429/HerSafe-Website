@@ -1,8 +1,8 @@
 {
   "name": "a",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,12 +14,16 @@
     "@tailwindcss/vite": "^4.0.14",
     "clsx": "^2.1.1",
     "cobe": "^0.6.3",
+    "ethers": "^6.13.5",
+    "ipfs-http-client": "^60.0.1",
     "lucide-react": "^0.482.0",
     "motion": "^12.6.3",
+    "nft.storage": "^7.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwind-merge": "^3.1.0",
-    "tailwindcss": "^4.0.14"
+    "tailwindcss": "^4.0.14",
+    "web3.storage": "^4.5.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
